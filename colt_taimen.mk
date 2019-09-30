@@ -10,6 +10,9 @@ $(call inherit-product, device/google/taimen/aosp_taimen.mk)
 
 -include device/google/taimen/device-carbon.mk
 
+# Google Apps
+$(call inherit-product, vendor/pixelgapps/pixel-gapps.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := colt_taimen
 PRODUCT_DEVICE := taimen
