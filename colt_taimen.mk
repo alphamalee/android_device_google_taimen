@@ -1,6 +1,5 @@
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2880
-TARGET_SCREEN_WIDTH := 1440
+TARGET_BOOT_ANIMATION_RES := 1440x2880
 
 # Inherit Carbon product configuration
 $(call inherit-product, vendor/colt/config/common.mk)
