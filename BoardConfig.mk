@@ -26,6 +26,8 @@ BOARD_EXT4_SHARE_DUP_BLOCKS := true
 
 # sepolicy
 BOARD_SEPOLICY_DIRS += device/google/taimen/sepolicy
+SELINUX_IGNORE_NEVERALLOWS := true
+PRODUCT_FULL_TREBLE_OVERRIDE = false
 
 # Testing related defines
 BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/wahoo-setup.sh

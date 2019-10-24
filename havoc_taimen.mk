@@ -2,7 +2,7 @@
 TARGET_BOOT_ANIMATION_RES := 1440x2880
 
 # Inherit Carbon product configuration
-$(call inherit-product, vendor/colt/config/common.mk)
+$(call inherit-product, vendor/havoc/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/taimen/aosp_taimen.mk)
@@ -13,7 +13,7 @@ $(call inherit-product, device/google/taimen/aosp_taimen.mk)
 $(call inherit-product, vendor/pixelgapps/pixel-gapps.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := colt_taimen
+PRODUCT_NAME := havoc_taimen
 PRODUCT_DEVICE := taimen
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 2 XL
